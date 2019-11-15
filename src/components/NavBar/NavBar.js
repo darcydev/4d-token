@@ -1,107 +1,43 @@
-import React from "react";
+import React, { useState } from "react";
+import styled from "styled-components";
+import { FaAngleDoubleDown, FaAngleDoubleUp } from "react-icons/fa";
+// components
+import Logo from "../Logo/Logo";
+import NavBarItem from "./NavBarItem";
+// data
+import { NAV_BAR_LINKS } from "./Data/NavBarData";
 
 export default function NavBar() {
+  const ITEMS_MARKUP = NAV_BAR_LINKS.map((v) => (
+    <NavBarItem key={v.title} title={v.title} link={v.link} />
+  ));
+
   return (
     <div className="header-main">
       <div className="header-container container">
         <div className="header-wrap">
-          {/* Logo @s */}
           <div className="header-logo header-logo-ls logo">
-            <a href="./" className="logo-link">
-              <img
-                className="logo-dark"
-                src="images/logo.png"
-                srcSet="images/logo2x.png 2x"
-                alt="logo"
-              />
-              <img
-                className="logo-light"
-                src="images/logo-white.png"
-                srcSet="images/logo-white2x.png 2x"
-                alt="logo"
-              />
-            </a>
+            <Logo />
           </div>
           {/* Menu Toogle @s */}
+          {/* TODO navbar toggle button not working */}
           <div className="header-nav-toggle">
-            <a
-              href="#"
-              className="navbar-toggle"
-              data-menu-toggle="example-menu-04"
-            >
+            <button className="navbar-toggle" data-menu-toggle="navbar">
+              <div className="toggle-line">
+                <span />
+              </div>
+            </button>
+            <a href="#" className="navbar-toggle" data-menu-toggle="navbar">
               <div className="toggle-line">
                 <span />
               </div>
             </a>
           </div>
-          {/* Menu @s */}
           <div className="header-navbar header-navbar-s3">
-            <nav
-              className="header-menu justify-content-between"
-              id="example-menu-04"
-            >
-              <ul className="menu menu-s2">
-                <li className="menu-item">
-                  <a className="menu-link nav-link" href="#ico">
-                    What is ICO
-                  </a>
-                </li>
-                <li className="menu-item">
-                  <a className="menu-link nav-link" href="#tokens">
-                    Tokens
-                  </a>
-                </li>
-                <li className="menu-item">
-                  <a className="menu-link nav-link" href="#roadmap">
-                    Roadmap
-                  </a>
-                </li>
-                <li className="menu-item">
-                  <a className="menu-link nav-link" href="#apps">
-                    Apps
-                  </a>
-                </li>
-                <li className="menu-item">
-                  <a className="menu-link nav-link" href="#team">
-                    Team
-                  </a>
-                </li>
-                <li className="menu-item">
-                  <a className="menu-link nav-link" href="#faq">
-                    Faq
-                  </a>
-                </li>
-                <li className="menu-item">
-                  <a className="menu-link nav-link" href="#contact">
-                    Contact
-                  </a>
-                </li>
-              </ul>
-              <ul className="menu-btns">
-                <li>
-                  <a
-                    href="#"
-                    data-toggle="modal"
-                    data-target="#register-popup"
-                    className="btn btn-rg btn-auto btn-outline btn-grad on-bg-theme-dark-alt"
-                  >
-                    <span>Sign Up</span>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    data-toggle="modal"
-                    data-target="#login-popup"
-                    className="btn btn-rg btn-auto btn-outline btn-grad on-bg-theme-dark-alt"
-                  >
-                    <span>Log In</span>
-                  </a>
-                </li>
-              </ul>
+            <nav id="navbar" className="header-menu justify-content-between">
+              <ul className="menu menu-s2">{ITEMS_MARKUP}</ul>
             </nav>
           </div>
-          {/* .header-navbar @e */}
         </div>
       </div>
     </div>

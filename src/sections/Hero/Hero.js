@@ -1,4 +1,5 @@
 import React from "react";
+import Countdown from "../../components/Countdown/Countdown";
 
 export default function Hero() {
   return (
@@ -40,6 +41,9 @@ export default function Hero() {
                         </li>
                       </ul>
                     </div>
+                  </div>
+                  <div className="col-lg-12">
+                    <Countdown />
                   </div>
                 </div>
                 {/* .col */}
