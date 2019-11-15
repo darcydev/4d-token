@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import Header from "./sections/Header/Header";
+import VideoHero from "./sections/Hero/VideoHero";
 import Hero from "./sections/Hero/Hero";
 import NavBar from "./components/NavBar/NavBar";
 import Footer from "./sections/Footer/Footer";
@@ -22,7 +23,7 @@ function App() {
         >
           <NavBar />
         </header>
-        <Hero />
+        <VideoHero />
         <main className="nk-pages bg-transparent">
           {/* Start Section */}
           <section
