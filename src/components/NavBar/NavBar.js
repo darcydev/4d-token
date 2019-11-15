@@ -5,7 +5,7 @@ import { FaAngleDoubleDown, FaAngleDoubleUp } from "react-icons/fa";
 import Logo from "../Logo/Logo";
 import NavBarItem from "./NavBarItem";
 // data
-import { NAV_BAR_LINKS } from "./Data/NavBarData";
+import { NAV_BAR_LINKS } from "../../Data/NavLinks";
 
 export default function NavBar() {
   const ITEMS_MARKUP = NAV_BAR_LINKS.map((v) => (
@@ -22,11 +22,6 @@ export default function NavBar() {
           {/* Menu Toogle @s */}
           {/* TODO navbar toggle button not working */}
           <div className="header-nav-toggle">
-            <button className="navbar-toggle" data-menu-toggle="navbar">
-              <div className="toggle-line">
-                <span />
-              </div>
-            </button>
             <a href="#" className="navbar-toggle" data-menu-toggle="navbar">
               <div className="toggle-line">
                 <span />
