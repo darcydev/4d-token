@@ -281,7 +281,6 @@ function App() {
             <div className="ui-mask-left ui-mask-s3" />
           </section>
           <Timeline />
-          <Team />
           <FAQs />
           <Contact />
         </main>

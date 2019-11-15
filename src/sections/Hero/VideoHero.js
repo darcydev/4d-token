@@ -19,12 +19,12 @@ export default function VideoHero() {
                       <div className="token-info-item token-info-item-s1">
                         <div className="token-info-item-list">
                           <span>Token Price:</span>
-                          <h4>1 ICOX=$0.02</h4>
+                          <h4>4DC ICOX=$0.02</h4>
                         </div>
                         <div className="token-info-item-list">
                           <span>We Accept:</span>
                           <h4>
-                            <em className="fab fa-ethereum" /> ETH
+                            <em className="fab fa-bitcoin" /> BTC
                           </h4>
                         </div>
                       </div>
@@ -33,7 +33,7 @@ export default function VideoHero() {
                           Tokens Availablen <br className="d-none d-md-block" />{" "}
                           on Pre-Sale:
                         </span>
-                        <h4>90,000,000 ICOX</h4>
+                        <h4>90,000,000 4DC</h4>
                       </div>
                     </div>
                     <div className="token-action token-action-s2 flex-wrap flex-sm-nowrap">
@@ -42,7 +42,7 @@ export default function VideoHero() {
                       </a>
                       <div className="token-min-s2">
                         <span>Minimum Purchase:</span>
-                        <span>10,000 ICOX</span>
+                        <span>10,000 4DC</span>
                       </div>
                     </div>
                   </div>
