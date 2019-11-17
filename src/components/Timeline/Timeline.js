@@ -5,12 +5,8 @@ export default function Timeline() {
     <section className="section bg-theme tc-light pb-0 ov-h" id="roadmap">
       <div className="container">
         <div className="section-head section-head-s3 wide-auto-sm text-center">
-          <h6 className="title title-xs title-xs-s3 tc-primary">Roadmap</h6>
-          <h2 className="title">The Timeline</h2>
-          <p>
-            With help from our teams, contributors and investors these are the
-            milestones we are looking forward to achieve.
-          </p>
+          <h6 className="title title-xs title-xs-s3 tc-primary">Achieved</h6>
+          <h2 className="title">The Milestones</h2>
         </div>
         {/* Block @s */}
         <div className="nk-block">

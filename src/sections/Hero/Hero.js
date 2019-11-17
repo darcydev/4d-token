@@ -1,108 +1,89 @@
 import React from "react";
-import Countdown from "../../components/Countdown/Countdown";
 
-export default function Hero() {
+export default function VideoHero() {
   return (
-    <div className="header-banner bg-theme-alt">
-      <div className="nk-banner bg-grad-special">
-        <div className="banner banner-fs banner-single bg-grad-special-alt tc-light">
-          <div className="banner-wrap mt-auto">
+    <div className="header-banner bg-theme-grad">
+      <div className="nk-banner">
+        <div className="banner banner-fs banner-single tc-light">
+          <div className="banner-wrap">
             <div className="container">
               <div className="row align-items-center justify-content-center justify-content-lg-between">
-                <div className="col-lg-6 order-lg-last">
-                  <div className="banner-gfx banner-gfx-re-s5">
-                    <img src="images/header/gfx-f.png" alt="header" />
+                <div className="col-lg-6 col-xl-5 col-md-8 col-sm-9 order-last">
+                  <div className="token-status token-status-s3 round bg-theme-alt tc-light">
+                    <h4 className="title-md title-thin">
+                      Distribution Ends In
+                    </h4>
+                    <div
+                      className="countdown-s2 countdown"
+                      data-date="2019/12/26"
+                    />
+                    <div className="token-info token-info-s1">
+                      <div className="token-info-item token-info-item-s1">
+                        <div className="token-info-item-list">
+                          <span>Token Price:</span>
+                          <h4>4DC ICOX=$0.02</h4>
+                        </div>
+                        <div className="token-info-item-list">
+                          <span>We Accept:</span>
+                          <h4>
+                            <em className="fab fa-bitcoin" /> BTC
+                          </h4>
+                        </div>
+                      </div>
+                      <div className="token-info-item token-info-item-s1">
+                        <span>
+                          Tokens Available
+                          <br className="d-none d-md-block" />
+                        </span>
+                        <h4>9,000,000</h4>
+                      </div>
+                    </div>
+                    <div className="token-action token-action-s2 flex-wrap flex-sm-nowrap">
+                      <a href="#" className="btn btn-md btn-secondary">
+                        Buy Tokens
+                      </a>
+                      <div className="token-min-s2">
+                        <span>Minimum Purchase:</span>
+                        <span>10,000 DINT</span>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                {/* .col */}
-                <div className="col-lg-6 text-center text-lg-left">
+                <div className="col-xl-6 col-lg-6 col-sm-10 text-center text-lg-left">
                   <div className="banner-caption cpn tc-light">
                     <div className="cpn-head">
-                      <h1 className="title title-xl-2 title-lg title-semibold">
-                        4D Token ICO - INTRODUCTION TEXT
+                      <h1 className="title title-xl-2 title-semibold">
+                        AMAZING INTRODUCTION TEXT
                       </h1>
                     </div>
                     <div className="cpn-text">
                       <p className="lead-s2">
-                        Nostrud enim culpa sit ad anim magna aute officia.
+                        a great opening sentence will be here!
                       </p>
                     </div>
                     <div className="cpn-action">
                       <ul className="cpn-links">
                         <li>
-                          <a href="#" className="btn btn-md btn-grad">
+                          <a href="#" className="btn btn-outline btn-primary">
                             Enter Exchange
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#" className="btn btn-md btn-grad">
-                            Token Distribution
                           </a>
                         </li>
                       </ul>
                     </div>
                   </div>
-                  <div className="col-lg-12">
-                    <Countdown />
-                  </div>
                 </div>
-                {/* .col */}
               </div>
-              {/* .row */}
             </div>
           </div>
-          <div className="nk-block mt-auto pdb-r">
-            <div className="container">
-              <ul className="partner-list-s3 row align-items-center justify-content-center">
-                <li className="col-12 col-md-2 text-center text-md-left">
-                  <h6 className="title title-xs tc-primary mb-md-0 mb-4">
-                    Our <br /> Partners
-                  </h6>
-                </li>
-                <li className="col-4 col-md-2">
-                  <a href="#">
-                    <img src="images/partners/a-xs-light.png" alt="partner" />
-                  </a>
-                </li>
-                <li className="col-4 col-md-2">
-                  <a href="#">
-                    <img src="images/partners/b-xs-light.png" alt="partner" />
-                  </a>
-                </li>
-                <li className="col-4 col-md-2">
-                  <a href="#">
-                    <img src="images/partners/c-xs-light.png" alt="partner" />
-                  </a>
-                </li>
-                <li className="col-4 col-md-2">
-                  <a href="#">
-                    <img src="images/partners/d-xs-light.png" alt="partner" />
-                  </a>
-                </li>
-                <li className="col-4 col-md-2">
-                  <a href="#">
-                    <img src="images/partners/e-xs-light.png" alt="partner" />
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          {/* .block @e */}
-          <div className="nk-ovm shape-u shape-contain shape-left-top" />
-          {/* Place Particle Js */}
-          <div
-            id="particles-bg"
-            className="particles-container particles-bg"
-            data-pt-base="#00c0fa"
-            data-pt-base-op=".3"
-            data-pt-line="#2b56f5"
-            data-pt-line-op=".5"
-            data-pt-shape="#00c0fa"
-            data-pt-shape-op=".2"
-          />
         </div>
       </div>
-      {/* .nk-banner */}
+      <div
+        className="bg-video bg-video-youtube"
+        data-video="W6qWLgLbjhk"
+        data-overlay="theme"
+        data-opacity={80}
+        data-cover="images/bg/bg-b.jpg"
+      />
     </div>
   );
 }
