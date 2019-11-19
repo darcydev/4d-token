@@ -30,14 +30,14 @@ export default function Sale() {
               <div className="row gutter-vr-30px">
                 <div className="col-sm-6">
                   <div className="stage-info">
-                    <h6 className="title title-s6 title-xs-s2">Start</h6>
+                    <h6 className="title title-xs-s2">Start</h6>
                     <p>Feb 8, 2018 (9:00AM GMT)</p>
                   </div>
                 </div>
                 {/* .col  */}
                 <div className="col-sm-6">
                   <div className="stage-info">
-                    <h6 className="title title-s6 title-xs-s2">
+                    <h6 className="title title-xs-s2">
                       Number of tokens for sale
                     </h6>
                     <p>900,000 ICC (9%)</p>
@@ -46,35 +46,31 @@ export default function Sale() {
                 {/* .col  */}
                 <div className="col-sm-6">
                   <div className="stage-info">
-                    <h6 className="title title-s6 title-xs-s2">End</h6>
+                    <h6 className="title title-xs-s2">End</h6>
                     <p>Feb 20, 2018 (11:00AM GMT)</p>
                   </div>
                 </div>
                 {/* .col  */}
                 <div className="col-sm-6">
                   <div className="stage-info">
-                    <h6 className="title title-s6 title-xs-s2">
-                      Tokens exchange rate
-                    </h6>
+                    <h6 className="title title-xs-s2">Tokens exchange rate</h6>
                     <p>1 ETH = 650 ICC, 1 BTC = 1940 ICC</p>
                   </div>
                 </div>
                 {/* .col  */}
                 <div className="col-sm-6">
                   <div className="stage-info">
-                    <h6 className="title title-s6 title-xs-s2">
-                      Acceptable currencies
-                    </h6>
-                    <p>ETH, BTC, LTC</p>
+                    <h6 className="title title-xs-s2">Acceptable currencies</h6>
+                    <p>FIAT, ETH, BTC, LTC</p>
                   </div>
                 </div>
                 {/* .col  */}
                 <div className="col-sm-6">
                   <div className="stage-info">
-                    <h6 className="title title-s6 title-xs-s2">
-                      Minimal transaction amount
+                    <h6 className="title title-xs-s2">
+                      Maximum transaction amount
                     </h6>
-                    <p>1 ETH/ 1 BTC/ 1 LTC</p>
+                    <p>10,000 DINT</p>
                   </div>
                 </div>
                 {/* .col  */}
@@ -144,7 +140,47 @@ export default function Sale() {
                   Sale Proceed Allocation
                 </h3>
                 <div className="chart">
-                  <img src="images/azure/chart-l-dark.png" alt="chart" />
+                  <PieChart
+                    color="greens"
+                    data={[
+                      {
+                        id: "Team",
+                        label: "Team",
+                        value: 15,
+                        color: "hsl(335, 70%, 50%)"
+                      },
+                      {
+                        id: "Legal",
+                        label: "Legal",
+                        value: 15,
+                        color: "hsl(116, 70%, 50%)"
+                      },
+                      {
+                        id: "Marketing",
+                        label: "Marketing",
+                        value: 10,
+                        color: "hsl(104, 70%, 50%)"
+                      },
+                      {
+                        id: "Platform Development",
+                        label: "Platform Development",
+                        value: 25,
+                        color: "hsl(299, 70%, 50%)"
+                      },
+                      {
+                        id: "Expanding",
+                        label: "Expanding",
+                        value: 30,
+                        color: "hsl(299, 70%, 50%)"
+                      },
+                      {
+                        id: "unknown",
+                        label: "unknown",
+                        value: 5,
+                        color: "hsl(299, 70%, 50%)"
+                      }
+                    ]}
+                  />
                 </div>
               </div>
             </div>
