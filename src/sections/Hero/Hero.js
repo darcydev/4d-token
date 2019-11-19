@@ -20,22 +20,38 @@ export default function VideoHero() {
                     <div className="token-info token-info-s1">
                       <div className="token-info-item token-info-item-s1">
                         <div className="token-info-item-list">
-                          <span>Token Price:</span>
-                          <h4>4DC ICOX=$0.02</h4>
+                          <span>Public Round 1:</span>
+                          <h4>1,600,000 $0.34</h4>
                         </div>
                         <div className="token-info-item-list">
-                          <span>We Accept:</span>
-                          <h4>
-                            <em className="fab fa-bitcoin" /> BTC
-                          </h4>
+                          <span>Public Round 2:</span>
+                          <h4>2,500,000 $0.29</h4>
+                        </div>
+                        <div className="token-info-item-list">
+                          <span>Final Round:</span>
+                          <h4>4,000,000 -</h4>
                         </div>
                       </div>
                       <div className="token-info-item token-info-item-s1">
                         <span>
-                          Tokens Available
+                          Total Supply
                           <br className="d-none d-md-block" />
                         </span>
                         <h4>9,000,000</h4>
+                      </div>
+                      <div className="token-info-item token-info-item-s1">
+                        <span>
+                          Circulating Supply
+                          <br className="d-none d-md-block" />
+                        </span>
+                        <h4>8,100,000</h4>
+                      </div>
+                      <div className="token-info-item token-info-item-s1">
+                        <span>
+                          Development Holding
+                          <br className="d-none d-md-block" />
+                        </span>
+                        <h4>900,000</h4>
                       </div>
                     </div>
                     <div className="token-action token-action-s2 flex-wrap flex-sm-nowrap">
@@ -43,7 +59,7 @@ export default function VideoHero() {
                         Buy Tokens
                       </a>
                       <div className="token-min-s2">
-                        <span>Minimum Purchase:</span>
+                        <span>Maximum Purchase:</span>
                         <span>10,000 DINT</span>
                       </div>
                     </div>
@@ -53,12 +69,20 @@ export default function VideoHero() {
                   <div className="banner-caption cpn tc-light">
                     <div className="cpn-head">
                       <h1 className="title title-xl-2 title-semibold">
-                        AMAZING INTRODUCTION TEXT
+                        The token has been created to utilize the technology,
+                        behind blockchain & smart contracts for business favor.
                       </h1>
                     </div>
                     <div className="cpn-text">
                       <p className="lead-s2">
-                        a great opening sentence will be here!
+                        By buying our token, you should be aware of the risks.
+                        We are not here to develop price of our token. We are
+                        here truly to finish our already started use case, which
+                        don’t require any Crypto Currency holdings. It’s
+                        honestly, well planned, a one of a kind. Limited info
+                        until release of DINT Platform, thanks for
+                        understanding. (You do not need to buy our token to use
+                        our DINT Platform once it’s ready to begin used)
                       </p>
                     </div>
                     <div className="cpn-action">

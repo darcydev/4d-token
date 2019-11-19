@@ -15,10 +15,9 @@ export default function Sale() {
             <h6 className="title title-xs title-xs-s3 tc-primary">Token</h6>
             <h2 className="title">Pre-Sale &amp; Values</h2>
             <p>
-              ICO Crypto token will be released on the basis of Ethereum and
-              Bitocin platform. It’s compatibility of the token with third-party
-              services wallets, exchanges etc, and provides easy-to-use
-              integration.
+              All sales are public sales. Reason for higher pricing is simply,
+              because our use case development has already started and it's to
+              be finished.
             </p>
           </div>
           <div className="row align-items-center justify-content-between gutter-vr-30px">

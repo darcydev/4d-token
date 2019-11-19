@@ -1,14 +1,15 @@
 import React from "react";
 
+import SectionHeading from "../Headings/SectionHeading/SectionHeading";
+
 export default function Timeline() {
   return (
     <section className="section bg-theme tc-light pb-0 ov-h" id="roadmap">
       <div className="container">
-        <div className="section-head section-head-s3 wide-auto-sm text-center">
-          <h6 className="title title-xs title-xs-s3 tc-primary">Achieved</h6>
-          <h2 className="title">The Milestones</h2>
-        </div>
-        {/* Block @s */}
+        <SectionHeading
+          topHeading="what we've achieved"
+          mainHeading="Achieved Milestones"
+        />
         <div className="nk-block">
           <div className="row justify-content-center">
             <div className="col">
