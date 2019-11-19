@@ -1,10 +1,21 @@
 import React from "react";
 
+import { TIMELINE_DATA } from "./Data/TimelineData";
+
 import SectionHeading from "../Headings/SectionHeading/SectionHeading";
 
 export default function Timeline() {
+  const TIMELINE_ITEMS_MARKUP = TIMELINE_DATA.map((v) => (
+    <div className="roadmap roadmap-s6 roadmap-s6-3-2 roadmap-done">
+      <div className="roadmap-head roadmap-head-s6">
+        <span className="roadmap-time roadmap-time-s6">{v.date}</span>
+      </div>
+      <p>{v.description}</p>
+    </div>
+  ));
+
   return (
-    <section className="section bg-theme tc-light pb-0 ov-h" id="roadmap">
+    <section className="section bg-theme tc-light ov-h" id="roadmap">
       <div className="container">
         <SectionHeading
           topHeading="what we've achieved"
@@ -20,78 +31,18 @@ export default function Timeline() {
                   data-items-mobile-s={1}
                   data-navs="true"
                 >
-                  <div className="roadmap roadmap-s6 roadmap-s6-3-2 roadmap-done">
-                    <div className="roadmap-head roadmap-head-s6">
-                      <span className="roadmap-time roadmap-time-s6">
-                        March 2018
-                      </span>
-                    </div>
-                    <p>Start of the ICO Crypto Platform Development</p>
-                  </div>
-                  <div className="roadmap roadmap-s6 roadmap-s6-2-1 roadmap-done">
-                    <div className="roadmap-head roadmap-head-s6">
-                      <span className="roadmap-time roadmap-time-s6">
-                        April 2018
-                      </span>
-                    </div>
-                    <p>Start of the Preparation for the ICO Token Sale</p>
-                  </div>
-                  <div className="roadmap roadmap-s6 roadmap-s6-1-2">
-                    <div className="roadmap-head roadmap-head-s6">
-                      <span className="roadmap-time roadmap-time-s6">
-                        October 2019
-                      </span>
-                    </div>
-                    <p>ICO Platform Launched with full solutions</p>
-                  </div>
-                  <div className="roadmap roadmap-s6 roadmap-s6-2-3">
-                    <div className="roadmap-head roadmap-head-s6">
-                      <span className="roadmap-time roadmap-time-s6">
-                        January 2019
-                      </span>
-                    </div>
-                    <p>Partnership for the future EcoSystem</p>
-                  </div>
-                  <div className="roadmap roadmap-s6 roadmap-s6-3-1">
-                    <div className="roadmap-head roadmap-head-s6">
-                      <span className="roadmap-time roadmap-time-s6">
-                        June 2019
-                      </span>
-                    </div>
-                    <p>ICO Wallet full version release</p>
-                  </div>
+                  {TIMELINE_ITEMS_MARKUP}
                   <div className="roadmap roadmap-s6 roadmap-s6-1-3">
                     <div className="roadmap-head roadmap-head-s6">
-                      <span className="roadmap-time roadmap-time-s6">
-                        December 2019
-                      </span>
+                      <span className="roadmap-time roadmap-time-s6">TBA</span>
                     </div>
-                    <p>The firest product ready to goes live to all business</p>
-                  </div>
-                  <div className="roadmap roadmap-s6 roadmap-s6-3-2">
-                    <div className="roadmap-head roadmap-head-s6">
-                      <span className="roadmap-time roadmap-time-s6">
-                        MarchQ2 2019
-                      </span>
-                    </div>
-                    <p>Start of the ICO Crypto Platform Development.</p>
-                  </div>
-                  <div className="roadmap roadmap-s6 roadmap-s6-2-1">
-                    <div className="roadmap-head roadmap-head-s6">
-                      <span className="roadmap-time roadmap-time-s6">
-                        April 2019
-                      </span>
-                    </div>
-                    <p>Start of the Preparation for the ICO Token Sale</p>
+                    <p>More coming soon...</p>
                   </div>
                 </div>
               </div>
             </div>
-            {/* .col */}
           </div>
-          {/* .row */}
         </div>
-        {/* .block @e */}
       </div>
     </section>
   );
