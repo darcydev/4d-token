@@ -21,7 +21,7 @@ export default function Contact() {
                     Any question? Reach out to us and we’ll get back to you
                     shortly.
                   </p>
-                  <ul className="contact-list contact-list-s3">
+                  <ul className="margin-auto contact-list contact-list-s3">
                     <li>
                       <em className="contact-icon contact-icon-s3 fas fa-phone" />
                       <div className="contact-text">

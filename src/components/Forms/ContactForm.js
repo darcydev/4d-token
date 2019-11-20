@@ -41,14 +41,14 @@ export default function ContactForm() {
             defaultValue
           />
           <div className="row">
-            <div className="col-sm-4">
+            <div className="col-sm-12">
               <button type="submit" className="btn btn-md btn-grad">
                 Submit
               </button>
             </div>
-            <div className="col-sm-8">
+            {/*             <div className="col-sm-8">
               <div className="form-results" />
-            </div>
+            </div> */}
           </div>
         </form>
       </div>

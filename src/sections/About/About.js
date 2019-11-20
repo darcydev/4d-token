@@ -45,7 +45,7 @@ export default function About() {
             <Zoom>
               <div className="col-lg-5 col-sm-9">
                 <div className="nk-block-video">
-                  <img src="images/azure/gfx-y-dark.png" alt="image" />
+                  <img src="images/azure/gfx-y-dark.png" alt="gfx-y-dark" />
                   <a
                     href="https://www.youtube.com/watch?v=SSo_EIwHSd4"
                     className="nk-block-video-play video-popup btn-play-wrap btn-play-wrap-s2"
