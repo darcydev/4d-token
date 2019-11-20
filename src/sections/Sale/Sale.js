@@ -13,6 +13,7 @@ import ExtraSmallHeading from "../../components/Headings/ExtraSmallHeading";
 import Countdown from "../../components/Countdown/Countdown";
 import WholePie from "../../components/Charts/PieCharts/WholePie";
 import HalfPie from "../../components/Charts/PieCharts/HalfPie";
+import WaffleChart from "../../components/Charts/WaffleCharts/WaffleChart";
 
 export default function Sale() {
   return (
@@ -76,6 +77,7 @@ export default function Sale() {
                   <div className="chart">
                     <WholePie color="reds" data={DISTRIBUTION_DATA} />
                     <HalfPie color="reds" data={DISTRIBUTION_DATA} />
+                    <WaffleChart color="category10" data={DISTRIBUTION_DATA} />
                   </div>
                 </div>
               </div>
@@ -89,6 +91,7 @@ export default function Sale() {
                   <div className="chart">
                     <WholePie color="greens" data={SALE_PROCEED_DATA} />
                     <HalfPie color="greens" data={SALE_PROCEED_DATA} />
+                    <WaffleChart color="dark2" data={SALE_PROCEED_DATA} />
                   </div>
                 </div>
               </div>

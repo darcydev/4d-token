@@ -1,9 +1,11 @@
 import React from "react";
 import { ResponsivePie } from "@nivo/pie";
 
+import "./PieChart.css";
+
 export default function WholePie({ data, color }) {
   return (
-    <div className="pie-chart whole-pie">
+    <div className="nivo-responsive-chart whole-pie">
       <ResponsivePie
         data={data}
         margin={{ top: 40, right: 80, bottom: 40, left: 80 }}

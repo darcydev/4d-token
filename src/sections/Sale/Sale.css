@@ -6,12 +6,26 @@
   display: none;
 }
 
+.waffle-chart {
+  display: none;
+}
+
 @media only screen and (max-width: 768px) {
   .whole-pie {
     display: none;
   }
 
   .half-pie {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .half-pie {
+    display: none;
+  }
+
+  .waffle-chart {
     display: block;
   }
 }

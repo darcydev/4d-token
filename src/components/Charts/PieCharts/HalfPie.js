@@ -1,14 +1,16 @@
 import React from "react";
 import { ResponsivePie } from "@nivo/pie";
 
+import "./PieChart.css";
+
 export default function HalfPie({ data, color }) {
   return (
-    <div className="pie-chart half-pie">
+    <div className="nivo-responsive-chart half-pie">
       <ResponsivePie
         data={data}
         startAngle={180}
         sortByValue={true}
-        margin={{ top: 40, right: 40, bottom: 40, left: 40 }}
+        margin={{ top: 40, right: 10, bottom: 40, left: 100 }}
         innerRadius={0.4}
         padAngle={2}
         cornerRadius={10}

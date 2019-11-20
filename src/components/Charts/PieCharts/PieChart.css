@@ -1,8 +1,8 @@
-.pie-chart {
+.nivo-responsive-chart {
   height: 400px;
 }
 
-.pie-chart g text {
+.nivo-responsive-chart g text {
   font-family: "Poppins", sans-serif !important;
   font-size: 14px !important;
   text-transform: capitalize !important;

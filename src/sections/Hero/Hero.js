@@ -19,7 +19,7 @@ export default function VideoHero() {
                       data-date="2019/12/26"
                     />
                     <div className="token-info token-info-s1">
-                      <div className="token-info-item token-info-item-s1">
+                      {/* <div className="token-info-item token-info-item-s1">
                         <div className="token-info-item-list">
                           <span>Public Round 1:</span>
                           <h4>1,600,000 $0.34</h4>
@@ -32,27 +32,27 @@ export default function VideoHero() {
                           <span>Final Round:</span>
                           <h4>4,000,000 -</h4>
                         </div>
-                      </div>
+                      </div> */}
                       <div className="token-info-item token-info-item-s1">
                         <span>
                           Total Supply
                           <br className="d-none d-md-block" />
                         </span>
-                        <h4>9,000,000</h4>
+                        <h4>9,000,000 DINT</h4>
                       </div>
                       <div className="token-info-item token-info-item-s1">
                         <span>
                           Circulating Supply
                           <br className="d-none d-md-block" />
                         </span>
-                        <h4>8,100,000</h4>
+                        <h4>8,100,000 DINT</h4>
                       </div>
                       <div className="token-info-item token-info-item-s1">
                         <span>
                           Development Holding
                           <br className="d-none d-md-block" />
                         </span>
-                        <h4>900,000</h4>
+                        <h4>900,000 DINT</h4>
                       </div>
                     </div>
                     <div className="token-action token-action-s2 flex-wrap flex-sm-nowrap">
