@@ -1,0 +1,17 @@
+.whole-pie {
+  display: block;
+}
+
+.half-pie {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .whole-pie {
+    display: none;
+  }
+
+  .half-pie {
+    display: block;
+  }
+}

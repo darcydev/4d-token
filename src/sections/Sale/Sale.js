@@ -1,16 +1,20 @@
 import React from "react";
 import Zoom from "react-reveal/Zoom";
 
-import { DISTRIBUTION_DATA } from "./Data/DistributionData";
+import {
+  DISTRIBUTION_DATA,
+  SALE_PROCEED_DATA
+} from "./Data/TokenDistributionData";
+
+import "./Sale.css";
 
 import SectionHeading from "../../components/Headings/SectionHeading";
 import ExtraSmallHeading from "../../components/Headings/ExtraSmallHeading";
 import Countdown from "../../components/Countdown/Countdown";
-import PieChart from "../../components/Charts/PieCharts/PieChart";
+import WholePie from "../../components/Charts/PieCharts/WholePie";
+import HalfPie from "../../components/Charts/PieCharts/HalfPie";
 
 export default function Sale() {
-  /* const DISTRIBUTION_CHART_DATA = DISTRIBUTION_DATA.map((v) => {}); */
-
   return (
     <section
       className="section section-tokensale bg-grad-vr-alt-to-theme tc-light pb-0 ov-v"
@@ -70,35 +74,8 @@ export default function Sale() {
                     Initial Token Distribution
                   </h3>
                   <div className="chart">
-                    <PieChart
-                      color="reds"
-                      data={[
-                        {
-                          id: "Public Round 1",
-                          label: "Public Round 1",
-                          value: 18,
-                          color: "hsl(335, 70%, 50%)"
-                        },
-                        {
-                          id: "Public Round 2",
-                          label: "Public Round 2",
-                          value: 28,
-                          color: "hsl(116, 70%, 50%)"
-                        },
-                        {
-                          id: "Final Round",
-                          label: "Final Round",
-                          value: 44,
-                          color: "hsl(104, 70%, 50%)"
-                        },
-                        {
-                          id: "Development Holding",
-                          label: "Development Holding",
-                          value: 10,
-                          color: "hsl(104, 70%, 50%)"
-                        }
-                      ]}
-                    />
+                    <WholePie color="reds" data={DISTRIBUTION_DATA} />
+                    <HalfPie color="reds" data={DISTRIBUTION_DATA} />
                   </div>
                 </div>
               </div>
@@ -110,41 +87,8 @@ export default function Sale() {
                     Sale Proceed Allocation
                   </h3>
                   <div className="chart">
-                    <PieChart
-                      color="greens"
-                      data={[
-                        {
-                          id: "Team",
-                          label: "Team",
-                          value: 15,
-                          color: "hsl(335, 70%, 50%)"
-                        },
-                        {
-                          id: "Legal",
-                          label: "Legal",
-                          value: 15,
-                          color: "hsl(116, 70%, 50%)"
-                        },
-                        {
-                          id: "Marketing",
-                          label: "Marketing",
-                          value: 10,
-                          color: "hsl(104, 70%, 50%)"
-                        },
-                        {
-                          id: "Platform Development",
-                          label: "Platform Development",
-                          value: 30,
-                          color: "hsl(299, 70%, 50%)"
-                        },
-                        {
-                          id: "Expanding",
-                          label: "Expanding",
-                          value: 30,
-                          color: "hsl(299, 70%, 50%)"
-                        }
-                      ]}
-                    />
+                    <WholePie color="greens" data={SALE_PROCEED_DATA} />
+                    <HalfPie color="greens" data={SALE_PROCEED_DATA} />
                   </div>
                 </div>
               </div>
