@@ -60,7 +60,8 @@ export default function PieChart({ data, color }) {
           <ResponsivePie
             data={data}
             startAngle={180}
-            margin={{ top: 40, right: 40, bottom: 40, left: 300 }}
+            sortByValue={true}
+            margin={{ top: 40, right: 40, bottom: 40, left: 200 }}
             innerRadius={0.4}
             padAngle={2}
             cornerRadius={10}
