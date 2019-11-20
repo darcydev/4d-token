@@ -1,12 +1,13 @@
 import React from "react";
-import Logo from "../../components/Logo/Logo";
 
 import { NAV_BAR_LINKS } from "../../Data/NavLinks";
+
+import Logo from "../../components/Logo/Logo";
 import SubscribeForm from "../../components/Forms/SubscribeForm";
 import NavBarItem from "../../components/NavBar/NavBarItem";
 
 export default function Footer() {
-  const ITEMS_MARKUP = NAV_BAR_LINKS.map((v) => (
+  const ITEMS_MARKUP = NAV_BAR_LINKS.map(v => (
     <NavBarItem key={v.title} title={v.title} href={v.link} />
   ));
 
@@ -15,7 +16,6 @@ export default function Footer() {
       <hr className="hr hr-white-5 my-0" />
       <section className="section section-m bg-transparent tc-light ov-v">
         <div className="container">
-          {/* Block @s */}
           <div className="nk-block block-footer">
             <div className="row justify-content-between gutter-vr-30px">
               <div className="col-lg-4 col-sm-6">
@@ -54,7 +54,6 @@ export default function Footer() {
               <div className="col-lg-4 col-sm-6">
                 <SubscribeForm />
               </div>
-              {/* .col */}
               <div className="col-lg-4">
                 <div className="wgs wgs-menu">
                   <div className="wgs-body ml-lg-n3">
@@ -64,10 +63,8 @@ export default function Footer() {
                   </div>
                 </div>
               </div>
-              {/* .col */}
             </div>
           </div>
-          {/* .block @e */}
         </div>
       </section>
       <div className="nk-ovm shape-t h-75" />

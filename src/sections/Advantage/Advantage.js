@@ -3,9 +3,9 @@ import Zoom from "react-reveal/Zoom";
 
 import { CARDS_TEXT } from "./Data/CardsText";
 
+import SectionHeading from "../../components/Headings/SectionHeading";
 import FlexWrapCards from "../../components/Cards/Containers/FlexWrapCards";
-import SectionHeading from "../../components/Headings/SectionHeading/SectionHeading";
-import ImageCard from "../../components/Cards/ImageCards/ImageCard";
+import LinkButton from "../../components/Buttons/LinkButton";
 
 export default function Advantage() {
   return (
@@ -21,14 +21,18 @@ export default function Advantage() {
         </Zoom>
         <div className="nk-block">
           <div className="row justify-content-center gutter-vr-30px">
-            <FlexWrapCards flexWidth={32} content={CARDS_TEXT} />
+            <Zoom>
+              <FlexWrapCards flexWidth={32} content={CARDS_TEXT} />
+            </Zoom>
           </div>
           <div className="text-center pdt-r">
             <ul className="btn-grp">
               <li>
-                <a href="#" className="btn btn-grad btn-md">
-                  Enter Exchange
-                </a>
+                <LinkButton
+                  link="https://trade.4dmarkets.com/"
+                  classes="btn-grad btn-md"
+                  text="Enter Exchange"
+                />
               </li>
             </ul>
           </div>

@@ -3,8 +3,8 @@ import React from "react";
 import { DISTRIBUTION_DATA } from "./Data/DistributionData";
 
 import Countdown from "../../components/Countdown/Countdown";
-// import PieChart from "../../components/Charts/Victory/PieCharts/PieChart";
-import PieChart from "../../components/Charts/Nivo/PieChart";
+import PieChart from "../../components/Charts/PieCharts/PieChart";
+import ExtraSmallHeading from "../../components/Headings/ExtraSmallHeading";
 
 export default function Sale() {
   /* const DISTRIBUTION_CHART_DATA = DISTRIBUTION_DATA.map((v) => {}); */
@@ -28,40 +28,27 @@ export default function Sale() {
           <div className="row align-items-center justify-content-between gutter-vr-30px">
             <div className="col-lg-6">
               <div className="row gutter-vr-30px">
-                <div className="col-sm-6">
-                  <div className="stage-info">
-                    <h6 className="title title-xs-s2">Public Round 1</h6>
-                    <p>1,600,000 DINT @ $0.34</p>
-                  </div>
-                </div>
-                <div className="col-sm-6">
-                  <div className="stage-info">
-                    <h6 className="title title-xs-s2">Public Round 2</h6>
-                    <p>2,500,000 DINT @ $0.29</p>
-                  </div>
-                </div>
-                <div className="col-sm-6">
-                  <div className="stage-info">
-                    <h6 className="title title-xs-s2">Final Round</h6>
-                    <p>4,000,000 DINT @ $-</p>
-                  </div>
-                </div>
-                <div className="col-sm-6">
-                  <div className="stage-info">
-                    <h6 className="title title-xs-s2">We Accept</h6>
-                    <p>FIAT, ETH, BTC, LTC</p>
-                  </div>
-                </div>
-                <div className="col-sm-6">
-                  <div className="stage-info">
-                    <h6 className="title title-xs-s2">
-                      Maximum transaction amount
-                    </h6>
-                    <p>10,000 DINT</p>
-                  </div>
-                </div>
+                <ExtraSmallHeading
+                  mainHeading="Public Round 1"
+                  subHeading="1,600,000 DINT @ $0.34"
+                />
+                <ExtraSmallHeading
+                  mainHeading="Public Round 2"
+                  subHeading="2,500,000 DINT @ $0.29"
+                />
+                <ExtraSmallHeading
+                  mainHeading="Final Round"
+                  subHeading="4,000,000 DINT @ $-"
+                />
+                <ExtraSmallHeading
+                  mainHeading="We Accept"
+                  subHeading="FIAT, ETH, BTC, LTC"
+                />
+                <ExtraSmallHeading
+                  mainHeading="Maximum transaction amount"
+                  subHeading="10,000 DINT"
+                />
               </div>
-              {/* .row  */}
             </div>
             <div className="col-lg-5">
               <Countdown />

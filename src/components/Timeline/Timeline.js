@@ -2,10 +2,10 @@ import React from "react";
 
 import { TIMELINE_DATA } from "./Data/TimelineData";
 
-import SectionHeading from "../Headings/SectionHeading/SectionHeading";
+import SectionHeading from "../Headings/SectionHeading";
 
 export default function Timeline() {
-  const TIMELINE_ITEMS_MARKUP = TIMELINE_DATA.map((v) => (
+  const TIMELINE_ITEMS_MARKUP = TIMELINE_DATA.map(v => (
     <div className="roadmap roadmap-s6 roadmap-s6-3-2 roadmap-done">
       <div className="roadmap-head roadmap-head-s6">
         <span className="roadmap-time roadmap-time-s6">{v.date}</span>

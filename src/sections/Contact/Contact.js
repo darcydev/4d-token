@@ -1,7 +1,7 @@
 import React from "react";
 
 import { CONTACT_DATA } from "../../Data/ContactData";
-import SectionHeading from "../../components/Headings/SectionHeading/SectionHeading";
+import SectionHeading from "../../components/Headings/SectionHeading";
 import ContactForm from "../../components/Forms/ContactForm";
 
 export default function Contact() {

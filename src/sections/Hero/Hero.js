@@ -1,4 +1,5 @@
 import React from "react";
+import LinkButton from "../../components/Buttons/LinkButton";
 
 export default function VideoHero() {
   return (
@@ -55,9 +56,11 @@ export default function VideoHero() {
                       </div>
                     </div>
                     <div className="token-action token-action-s2 flex-wrap flex-sm-nowrap">
-                      <a href="#" className="btn btn-md btn-secondary">
-                        Buy Tokens
-                      </a>
+                      <LinkButton
+                        link="https://trade.4dmarkets.com/"
+                        classes="btn-md btn-secondary"
+                        text="Buy Tokens"
+                      />
                       <div className="token-min-s2">
                         <span>Maximum Purchase:</span>
                         <span>10,000 DINT</span>
@@ -88,9 +91,11 @@ export default function VideoHero() {
                     <div className="cpn-action">
                       <ul className="cpn-links">
                         <li>
-                          <a href="#" className="btn btn-outline btn-primary">
-                            Enter Exchange
-                          </a>
+                          <LinkButton
+                            link="https://trade.4dmarkets.com/"
+                            classes="btn-outline btn-primary"
+                            text="Enter Exchange"
+                          />
                         </li>
                       </ul>
                     </div>

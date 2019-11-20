@@ -1,19 +1,18 @@
 import React from "react";
 
+import SectionHeading from "../../components/Headings/SectionHeading";
+
 export default function FAQs() {
   return (
     <section className="section bg-theme-alt tc-light pb-0 ov-v" id="faq">
       <div className="container">
-        <div className="section-head section-head-s3 wide-auto-sm text-center">
-          <h6 className="title title-xs title-xs-s3 tc-primary">Faqs</h6>
-          <h2 className>Frequently Asked Questions</h2>
-          <p>
-            Below we’ve provided a bit of ICO, ICO Token, cryptocurrencies, and
-            few others. If you have any other questions, please get in touch
-            using the contact form below.
-          </p>
-        </div>
-        {/* Block @s */}
+        <SectionHeading
+          topHeading="Faqs"
+          mainHeading="Frequently Asked Questions"
+          subHeading="Below we’ve provided a bit of ICO, ICO Token, cryptocurrencies, and
+          few others. If you have any other questions, please get in touch
+          using the contact form below."
+        />
         <div className="nk-block">
           <div className="row justify-content-center">
             <div className="col-xl-8 col-lg-10">
