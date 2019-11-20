@@ -18,7 +18,7 @@ export default function PieChart({ data, color }) {
         colors={{ scheme: color }}
         borderWidth={1}
         borderColor={{ from: "color", modifiers: [["darker", 1]] }}
-        radialLabel={(e) => `${e.id} (${e.value}%)`}
+        radialLabel={e => `${e.id} (${e.value}%)`}
         radialLabelsSkipAngle={10}
         radialLabelsTextXOffset={6}
         radialLabelsTextColor="#41faa4"
@@ -31,20 +31,6 @@ export default function PieChart({ data, color }) {
         motionStiffness={90}
         motionDamping={15}
         isInteractive={false}
-        /*         tooltip={function(e) {
-          return o.a.createElement(
-            l,
-            { style: { color: e.color } },
-            o.a.createElement(u, null, "id"),
-            o.a.createElement(c, null, e.id),
-            o.a.createElement(u, null, "value"),
-            o.a.createElement(c, null, e.value),
-            o.a.createElement(u, null, "label"),
-            o.a.createElement(c, null, e.label),
-            o.a.createElement(u, null, "color"),
-            o.a.createElement(c, null, e.color)
-          );
-        }} */
         defs={[
           {
             id: "dots",
