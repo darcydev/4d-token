@@ -1,40 +1,62 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import { FaAngleDoubleDown, FaAngleDoubleUp } from "react-icons/fa";
-// components
-import Logo from "../Logo/Logo";
-import NavBarItem from "./NavBarItem";
-// data
+
+// import { COLORS } from "../../data/variables";
 import { NAV_BAR_LINKS } from "../../Data/NavLinks";
 
+import "./NavBar.css";
+
+import NavBarItem from "./NavBarItem";
+
+import Logo from "../Logo/Logo";
+
 export default function NavBar() {
-  const ITEMS_MARKUP = NAV_BAR_LINKS.map((v) => (
+  const [isOpen, toggleOpen] = useState(false);
+
+  const BUTTON_MARKUP = isOpen ? <FaAngleDoubleUp /> : <FaAngleDoubleDown />;
+
+  const ITEMS_MARKUP = NAV_BAR_LINKS.map(v => (
     <NavBarItem key={v.title} title={v.title} link={v.link} />
   ));
 
   return (
-    <div className="header-main">
-      <div className="header-container container">
-        <div className="header-wrap">
-          <div className="header-logo header-logo-ls logo">
-            <Logo />
-          </div>
-          {/* Menu Toogle @s */}
-          {/* TODO navbar toggle button not working */}
-          <div className="header-nav-toggle">
-            <a href="#" className="navbar-toggle" data-menu-toggle="navbar">
-              <div className="toggle-line">
-                <span />
-              </div>
-            </a>
-          </div>
-          <div className="header-navbar header-navbar-s3">
-            <nav id="navbar" className="header-menu justify-content-between">
-              <ul className="menu menu-s2">{ITEMS_MARKUP}</ul>
-            </nav>
-          </div>
-        </div>
+    <Container className="Navbar">
+      <div className="logo-and-button">
+        <Logo />
+        <Button className="toggle" onClick={_ => toggleOpen(!isOpen)}>
+          {BUTTON_MARKUP}
+        </Button>
       </div>
-    </div>
+      <Links className={"navbar-links " + (isOpen ? "opened" : "closed")}>
+        {ITEMS_MARKUP}
+      </Links>
+    </Container>
   );
 }
+
+const Container = styled.nav`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  min-height: 70px;
+  background: pink;
+  .logo-and-button {
+    display: flex;
+    align-items: center;
+  }
+`;
+
+const Links = styled.ul`
+  display: flex;
+`;
+
+const Button = styled.button`
+  background-color: transparent;
+  border: none;
+  color: white;
+  &:focus {
+    outline: 0;
+  }
+`;

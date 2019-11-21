@@ -22,5 +22,10 @@ export const CARDS_TEXT = [
     heading: "Globally Secure System",
     text:
       "An efficient global system covering all corners, provides best data security as a platform with 0 $ of transactions."
+  },
+  {
+    image: "images/gfx/gfx-sm-g.png",
+    heading: "The 5th Advantage Heading",
+    text: "The 5th Advantage text.........."
   }
 ];

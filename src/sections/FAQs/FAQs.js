@@ -30,7 +30,7 @@ export default function FAQs() {
       <div className="col-md-6">
         <div className="nk-block-text">
           <h5 className="title title-sm">{k}</h5>
-          <p>{FAQ_GENERAL_ANSWERS[k]}</p>
+          <p>{obj[k]}</p>
         </div>
       </div>
     ));
@@ -42,7 +42,10 @@ export default function FAQs() {
   const FAQ_LEGAL_ANSWERS_MARKUP = getAnswersMarkup(FAQ_LEGAL_ANSWERS);
 
   return (
-    <section className="section bg-theme-alt tc-light pb-0 ov-v" id="faq">
+    <section
+      className="section bg-theme-alt tc-light pb-0 ov-v"
+      id="faq-section"
+    >
       <div className="container">
         <Zoom>
           <SectionHeading

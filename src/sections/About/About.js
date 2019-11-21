@@ -4,8 +4,8 @@ import Zoom from "react-reveal/Zoom";
 export default function About() {
   return (
     <section
-      className="section section-intro  bg-theme-alt tc-light pb-0 ov-h"
-      id="ico"
+      className="section section-intro bg-theme-alt tc-light pb-0 ov-h"
+      id="about-section"
     >
       <div className="container">
         <div className="nk-block nk-block-about">

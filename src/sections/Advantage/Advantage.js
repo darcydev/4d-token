@@ -9,7 +9,7 @@ import LinkButton from "../../components/Buttons/LinkButton";
 
 export default function Advantage() {
   return (
-    <section className="section  bg-theme-alt tc-light pb-0 ov-v">
+    <section className="section bg-theme-alt tc-light pb-0 ov-v">
       <div className="container">
         <Zoom>
           <SectionHeading

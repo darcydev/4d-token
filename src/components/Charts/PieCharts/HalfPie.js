@@ -17,7 +17,7 @@ export default function HalfPie({ data, color }) {
         colors={{ scheme: color }}
         borderWidth={1}
         borderColor={{ from: "color", modifiers: [["darker", 1]] }}
-        radialLabel={(e) => `${e.id} (${e.value}%)`}
+        radialLabel={e => `${e.id} (${e.value}%)`}
         radialLabelsSkipAngle={10}
         radialLabelsTextXOffset={6}
         radialLabelsTextColor="#41faa4"
@@ -29,6 +29,7 @@ export default function HalfPie({ data, color }) {
         animate={true}
         motionStiffness={90}
         motionDamping={15}
+        isInteractive={false}
         defs={[
           {
             id: "dots",

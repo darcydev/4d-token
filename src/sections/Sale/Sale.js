@@ -19,7 +19,7 @@ export default function Sale() {
   return (
     <section
       className="section section-tokensale bg-grad-vr-alt-to-theme tc-light pb-0 ov-v"
-      id="tokens"
+      id="ico-section"
     >
       <div className="container">
         <div className="nk-block nk-block-token">
@@ -75,8 +75,8 @@ export default function Sale() {
                     Initial Token Distribution
                   </h3>
                   <div className="chart">
-                    <WholePie color="reds" data={DISTRIBUTION_DATA} />
-                    <HalfPie color="reds" data={DISTRIBUTION_DATA} />
+                    <WholePie color="category10" data={DISTRIBUTION_DATA} />
+                    <HalfPie color="category10" data={DISTRIBUTION_DATA} />
                     <WaffleChart color="category10" data={DISTRIBUTION_DATA} />
                   </div>
                 </div>
@@ -89,9 +89,9 @@ export default function Sale() {
                     Sale Proceed Allocation
                   </h3>
                   <div className="chart">
-                    <WholePie color="greens" data={SALE_PROCEED_DATA} />
-                    <HalfPie color="greens" data={SALE_PROCEED_DATA} />
-                    <WaffleChart color="dark2" data={SALE_PROCEED_DATA} />
+                    <WholePie color="category10" data={SALE_PROCEED_DATA} />
+                    <HalfPie color="category10" data={SALE_PROCEED_DATA} />
+                    <WaffleChart color="category10" data={SALE_PROCEED_DATA} />
                   </div>
                 </div>
               </div>

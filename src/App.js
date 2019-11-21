@@ -24,8 +24,8 @@ function App() {
         >
           <NavBar />
         </header>
-        <Hero />
         <main className="nk-pages bg-transparent">
+          <Hero />
           <About />
           <Advantage />
           <Sale />
