@@ -15,8 +15,7 @@ export default function Advantage() {
           <SectionHeading
             topHeading="why DINT"
             mainHeading="competitve advantage"
-            subHeading="With help from our teams, contributors and investors these are the
-              milestones we are looking forward to achieve."
+            subHeading="We are here to deliver our own vision and it's mission to make it. With our own 4DMarkets, DINT Token and our very own use case which was developed to solve a one unique problem, but we solved and created something more."
           />
         </Zoom>
         <div className="nk-block">

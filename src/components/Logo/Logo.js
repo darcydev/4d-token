@@ -4,7 +4,7 @@ export default function Logo() {
   return (
     <div className="logo">
       <a href="#hero-section">
-        <img src="images/logo-new.png" alt="logo" />
+        <img src="images/logos/logo-dint-medium-white-text.png" alt="logo" />
       </a>
     </div>
   );
