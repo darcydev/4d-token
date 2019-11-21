@@ -11,8 +11,13 @@ export default function Countdown() {
         />
       </div>
       <div className="token-action">
-        <a className="btn btn-md btn-grad btn-grad-alternet btn-round" href="#">
-          BUY TOKENS NOW
+        <a
+          className="btn btn-md btn-grad btn-grad-alternet btn-round"
+          href="https://trade.4dmarkets.com/#/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          BUY TOKENS
         </a>
       </div>
     </div>
