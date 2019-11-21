@@ -4,7 +4,7 @@ export default function Countdown() {
   return (
     <div className="token-status token-status-s5 bg-grad no-bd round tc-light">
       <div className="token-box token-box-s3">
-        <h4 className="title title-sm">DISTRIBUTION STARTING IN</h4>
+        <h4 className="title title-sm">PUBLIC ROUND 1 STARTS</h4>
         <div
           className="countdown-s3 countdown-s4 countdown"
           data-date="2020/01/15"

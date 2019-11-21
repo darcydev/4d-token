@@ -12,11 +12,11 @@ export default function VideoHero() {
                 <div className="col-lg-6 col-xl-5 col-md-8 col-sm-9 order-last">
                   <div className="token-status token-status-s3 round bg-theme-alt tc-light">
                     <h4 className="title-md title-thin">
-                      Distribution Ends In
+                      PUBLIC ROUND 1 STARTS
                     </h4>
                     <div
                       className="countdown-s2 countdown"
-                      data-date="2019/12/26"
+                      data-date="2020/01/15"
                     />
                     <div className="token-info token-info-s1">
                       {/* <div className="token-info-item token-info-item-s1">

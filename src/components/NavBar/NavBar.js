@@ -41,7 +41,7 @@ const Container = styled.nav`
   align-items: center;
   padding: 20px;
   min-height: 70px;
-  background: pink;
+  background: #0d42b2;
   .logo-and-button {
     display: flex;
     align-items: center;
