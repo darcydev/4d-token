@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import media from "styled-media-query";
+import Zoom from "react-reveal/Zoom";
 
 import ImageCard from "../ImageCards/ImageCard";
 
@@ -18,6 +19,7 @@ const Cards = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+
   ${media.lessThan("large")`
     flex-direction: column;
     max-width: 70%;

@@ -42,6 +42,13 @@ export default function VideoHero() {
                       </div>
                       <div className="token-info-item token-info-item-s1">
                         <span>
+                          Already Sold
+                          <br className="d-none d-md-block" />
+                        </span>
+                        <h4>180,000 DINT</h4>
+                      </div>
+                      <div className="token-info-item token-info-item-s1">
+                        <span>
                           Circulating Supply
                           <br className="d-none d-md-block" />
                         </span>
@@ -79,11 +86,11 @@ export default function VideoHero() {
                     <div className="cpn-text">
                       <p className="lead-s2">
                         By buying our token, you should be aware of the risks.
-                        We are not here to develop price of our token. We are
-                        here truly to finish our already started use case, which
-                        don’t require any Crypto Currency holdings. It’s
+                        We are not here to develop the price of our token. We
+                        are here truly to finish our already started use case,
+                        which doesn’t require any CryptoCurrency holdings. It’s
                         honestly, well planned, a one of a kind. Limited info
-                        until release of DINT Platform, thanks for
+                        until the release of the DINT Platform, thanks for
                         understanding. (You do not need to buy our token to use
                         our DINT Platform once it’s ready to begin used)
                       </p>

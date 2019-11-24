@@ -1,10 +1,12 @@
 import React from "react";
 import Zoom from "react-reveal/Zoom";
+import NumberFormat from "react-number-format";
 
 import {
   DISTRIBUTION_DATA,
   SALE_PROCEED_DATA
 } from "./Data/TokenDistributionData";
+import { SALES_DATES, AMOUNTS } from "./Data/SalesData";
 
 import "./Sale.css";
 
@@ -16,6 +18,16 @@ import HalfPie from "../../components/Charts/PieCharts/HalfPie";
 import WaffleChart from "../../components/Charts/WaffleCharts/WaffleChart";
 
 export default function Sale() {
+  const formatNumber = (num) => (
+    <NumberFormat value={num} displayType={"text"} thousandSeparator={true} />
+  );
+
+  const SMALL_HEADINGS_MARKUP = Object.keys(AMOUNTS).map((key) => {
+    const amount = formatNumber(AMOUNTS[key].amount);
+
+    return <ExtraSmallHeading mainHeading={key} subHeading={amount} />;
+  });
+
   return (
     <section
       className="section section-tokensale bg-grad-vr-alt-to-theme tc-light pb-0 ov-v"
@@ -36,24 +48,17 @@ export default function Sale() {
             <Zoom>
               <div className="col-lg-6">
                 <div className="row gutter-vr-30px">
-                  <ExtraSmallHeading
-                    mainHeading="Public Round 1"
-                    subHeading="1,600,000 DINT @ $0.34"
-                  />
-                  <ExtraSmallHeading
-                    mainHeading="Public Round 2"
-                    subHeading="2,500,000 DINT @ $0.29"
-                  />
+                  {SMALL_HEADINGS_MARKUP}
                   <ExtraSmallHeading
                     mainHeading="Final Round"
-                    subHeading="4,000,000 DINT @ $-"
+                    subHeading={formatNumber(3200000)}
                   />
                   <ExtraSmallHeading
                     mainHeading="We Accept"
                     subHeading="FIAT, ETH, BTC, LTC"
                   />
                   <ExtraSmallHeading
-                    mainHeading="Maximum transaction amount"
+                    mainHeading="Max transaction amount"
                     subHeading="10,000 DINT"
                   />
                 </div>
@@ -61,7 +66,7 @@ export default function Sale() {
             </Zoom>
             <Zoom>
               <div className="col-lg-5">
-                <Countdown />
+                <Countdown date={SALES_DATES.publicRoundOneStartDate} />
               </div>
             </Zoom>
           </div>

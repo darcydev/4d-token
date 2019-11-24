@@ -1,6 +1,10 @@
 import React from "react";
 
-export default function ExtraSmallHeading({ mainHeading, subHeading }) {
+export default function ExtraSmallHeading({
+  mainHeading,
+  subHeading,
+  subSubHeading
+}) {
   return (
     <div className="col-sm-6">
       <div className="stage-info">
