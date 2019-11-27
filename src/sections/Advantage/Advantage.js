@@ -25,15 +25,21 @@ export default function Advantage() {
             </Zoom>
           </div>
           <div className="text-center pdt-r">
-            <ul className="btn-grp">
-              <li>
-                <LinkButton
-                  link="https://trade.4dmarkets.com/"
-                  classes="btn-grad btn-md"
-                  text="Enter Exchange"
-                />
-              </li>
-            </ul>
+            <LinkButton
+              link="https://trade.4dmarkets.com/"
+              classes="btn-grad btn-md mag-s"
+              text="Enter Exchange"
+            />
+            <LinkButton
+              link="#"
+              classes="btn-grad btn-md mag-s"
+              text="Download Whitepaper"
+            />
+            <LinkButton
+              link="#"
+              classes="btn-grad btn-md mag-s"
+              text="Download Platform"
+            />
           </div>
         </div>
       </div>
