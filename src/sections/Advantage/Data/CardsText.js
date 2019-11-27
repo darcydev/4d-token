@@ -12,7 +12,7 @@ export const CARDS_TEXT = [
       "Integrates blockchain technology to provide unique model of modern ways, brining the advantages equally for everyone."
   },
   {
-    image: "images/gfx/gfx-sm-g.png",
+    image: "images/gfx/gfx-u-dark.png",
     heading: "Easy Token Integration",
     text:
       "Our mission is simple. We have digital and multi signatures. Every document is anyway, made digitally. We offer printable solutions."
@@ -24,8 +24,9 @@ export const CARDS_TEXT = [
       "An efficient global system covering all corners, provides best data security as a platform with 0 $ of transactions."
   },
   {
-    image: "images/gfx/gfx-sm-g.png",
-    heading: "The 5th Advantage Heading",
-    text: "The 5th Advantage text.........."
+    image: "images/gfx/gfx-n.png",
+    heading: "For everyone who it consider",
+    text:
+      "The use case will be open as a business management tool for everyone who wishes to use it! It is fulfilled with extra safety, speed and opportunities. Offered to everyone without the need owning DINT or any other CryptoCurrency."
   }
 ];
