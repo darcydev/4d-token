@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@nivo/circle-packing": "^0.59.1",
     "@nivo/pie": "^0.59.1",
     "@nivo/waffle": "^0.59.1",
     "react": "^16.11.0",

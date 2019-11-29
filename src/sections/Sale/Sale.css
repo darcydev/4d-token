@@ -10,6 +10,10 @@
   display: none;
 }
 
+.bubble-chart {
+  color: black !important;
+}
+
 @media only screen and (max-width: 768px) {
   .whole-pie {
     display: none;

@@ -8,13 +8,13 @@ export const DISTRIBUTION_DATA = [
   {
     id: "Public Round 1",
     label: "Public Round 1",
-    value: 13,
+    value: 10,
     color: "hsl(335, 70%, 50%)"
   },
   {
     id: "Public Round 2",
     label: "Public Round 2",
-    value: 22,
+    value: 25,
     color: "hsl(116, 70%, 50%)"
   },
   {
@@ -63,3 +63,21 @@ export const SALE_PROCEED_DATA = [
     color: "hsl(299, 70%, 50%)"
   }
 ];
+
+export const EXCHANGE_INCOME_DATA = {
+  name: "4DMarkets Referral Link",
+  color: "hsl(335, 70%, 50%)",
+  loc: 70,
+  children: [
+    {
+      name: "Maker Fee",
+      color: "hsl(299, 70%, 50%)",
+      loc: 20
+    },
+    {
+      name: "Taker Fee",
+      color: "hsl(116, 70%, 50%)",
+      loc: 10
+    }
+  ]
+};
