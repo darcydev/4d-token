@@ -9,7 +9,7 @@ export default function BubbleChart({ data, color }) {
         margin={{ top: 20, right: 20, bottom: 20, left: 20 }}
         identity="name"
         value="loc"
-        colors={{ scheme: "nivo" }}
+        colors={{ scheme: color }}
         padding={6}
         labelTextColor="black"
         borderWidth={2}

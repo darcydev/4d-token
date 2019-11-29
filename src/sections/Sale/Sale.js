@@ -5,8 +5,7 @@ import NumberFormat from "react-number-format";
 import {
   DISTRIBUTION_DATA,
   SALE_PROCEED_DATA,
-  EXCHANGE_INCOME_DATA,
-  BUBBLE_DATA
+  EXCHANGE_INCOME_DATA
 } from "./Data/TokenDistributionData";
 import { SALES_DATES, AMOUNTS } from "./Data/SalesData";
 
@@ -109,7 +108,10 @@ export default function Sale() {
                 <div className="single-chart text-center">
                   <h3 className="title title-lg pdb-l">Exchange Income</h3>
                   <div className="chart">
-                    <BubbleChart data={EXCHANGE_INCOME_DATA} color="nivo" />
+                    <BubbleChart
+                      data={EXCHANGE_INCOME_DATA}
+                      color="category10"
+                    />
                   </div>
                 </div>
               </div>
