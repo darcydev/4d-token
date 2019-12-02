@@ -13,3 +13,7 @@ Updated	 :	10.20.2019
 #faq-section .faq-item p {
   text-align: left;
 }
+
+#faq-section .container {
+  padding-bottom: 40px;
+}
