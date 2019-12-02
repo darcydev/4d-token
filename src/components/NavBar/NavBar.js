@@ -2,29 +2,35 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import { FaAngleDoubleDown, FaAngleDoubleUp } from "react-icons/fa";
 
-// import { COLORS } from "../../data/variables";
+// Data
 import { NAV_BAR_LINKS } from "../../Data/NavLinks";
-
+// Styles
 import "./NavBar.css";
-
+// Items
 import NavBarItem from "./NavBarItem";
-
+// Components
 import Logo from "../Logo/Logo";
 
-export default function NavBar() {
+export default function NavBar({ backgroundTransparent }) {
   const [isOpen, toggleOpen] = useState(false);
 
   const BUTTON_MARKUP = isOpen ? <FaAngleDoubleUp /> : <FaAngleDoubleDown />;
+  const BACKGROUND_COLOR_MARKUP = backgroundTransparent
+    ? "transparent"
+    : "#0d42b2";
 
-  const ITEMS_MARKUP = NAV_BAR_LINKS.map(v => (
+  const ITEMS_MARKUP = NAV_BAR_LINKS.map((v) => (
     <NavBarItem key={v.title} title={v.title} link={v.link} />
   ));
 
   return (
-    <Container className="Navbar">
+    <Container
+      style={{ background: BACKGROUND_COLOR_MARKUP }}
+      className="Navbar"
+    >
       <div className="logo-and-button">
         <Logo />
-        <Button className="toggle" onClick={_ => toggleOpen(!isOpen)}>
+        <Button className="toggle" onClick={(_) => toggleOpen(!isOpen)}>
           {BUTTON_MARKUP}
         </Button>
       </div>
@@ -41,7 +47,7 @@ const Container = styled.nav`
   align-items: center;
   padding: 20px;
   min-height: 70px;
-  background: #0d42b2;
+
   .logo-and-button {
     display: flex;
     align-items: center;
