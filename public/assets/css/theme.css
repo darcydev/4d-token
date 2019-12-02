@@ -6,4 +6,10 @@ Updated	 :	10.20.2019
 */
 /*! WRITE YOUR CUSTOM STYLE **/
 
-.mag-s { margin: 10px !important; }
+.mag-s {
+  margin: 10px !important;
+}
+
+#faq-section .faq-item p {
+  text-align: left;
+}
