@@ -79,20 +79,18 @@ export default function VideoHero() {
                   <div className="banner-caption cpn tc-light">
                     <div className="cpn-head">
                       <h1 className="title title-xl-2 title-semibold">
-                        The token has been created to utilize the technology,
-                        behind blockchain & smart contracts for business favor.
+                        Introducing DINToken: a next-level token that solves
+                        real problems for businesses!
                       </h1>
                     </div>
                     <div className="cpn-text">
                       <p className="lead-s2">
-                        By buying our token, you should be aware of the risks.
-                        We are not here to develop the price of our token. We
-                        are here truly to finish our already started use case,
-                        which doesn’t require any CryptoCurrency holdings. It’s
-                        honestly, well planned, a one of a kind. Limited info
-                        until the release of the DINT Platform, thanks for
-                        understanding. (You do not need to buy our token to use
-                        our DINT Platform once it’s ready to begin used)
+                        DINToken has been created to help businesses utilize the
+                        technology of blockchain and smart contracts! DINToken
+                        is unique in its approach: you don't require any
+                        CryptoCurrency holdings to use our platform. Welcome to
+                        the next-level of Tokens: secure, well-planned and
+                        unique!
                       </p>
                     </div>
                     <div className="cpn-action">

@@ -14,30 +14,30 @@ export default function About() {
               <div className="col-lg-6 col-sm-9 pdb-m">
                 <div className="nk-block-text text-center text-lg-left">
                   <h6 className="title title-xs title-xs-s3 tc-primary">
-                    DINT TOKEN
+                    DINTOKEN
                   </h6>
                   <h2 className="title title-semibold">
-                    Welcome to the World's first a without an acton vision which
+                    DINToken is unique in that without an acton vision which
                     change things that's needed.
                   </h2>
                   <p className="lead-s2">
                     DINT Token has been created to take advantage of blockchain
-                    & smart contracts. Our aim is a platform for the future of
-                    creative opportunities in businesses.
+                    and smart contract technology. Our aim is a platform for the
+                    future of creative opportunities in businesses.
                   </p>
                   <p>
                     While existing solutions offer to solve just one problem at
                     a time, our team is up to build a secure, useful, &
-                    easy-to-use product based on Ethereum blockchain. Begin
-                    online global. It will include cryptocurrency investors and
-                    even a digital arbitration system.
+                    easy-to-use product based on Ethereum blockchain. It will
+                    include cryptocurrency investors and even a digital
+                    arbitration system.
                   </p>
                   <p>
-                    At the end, our aim is to integrate a modern Proof of Work,
-                    POW model into business, giving businesses less need of
-                    relaying on traditional trust based model. From a unified
-                    blockchain ecosystem, which will make business truly
-                    efficient, transparent, and reliable, for everyone's use.
+                    We aim to integrate a modern Proof-of-Work model into
+                    business. Thereby giving businesses less reliance on a
+                    traditional trust-based model. Accordingly, DINToken is
+                    designed to make business more efficient, transparent and
+                    reliable.
                   </p>
                 </div>
               </div>
