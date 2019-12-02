@@ -4,7 +4,8 @@ import NumberFormat from "react-number-format";
 
 import {
   DISTRIBUTION_DATA,
-  SALE_PROCEED_DATA
+  SALE_PROCEED_DATA,
+  EXCHANGE_INCOME_DATA
 } from "./Data/TokenDistributionData";
 import { SALES_DATES, AMOUNTS } from "./Data/SalesData";
 
@@ -16,6 +17,7 @@ import Countdown from "../../components/Countdown/Countdown";
 import WholePie from "../../components/Charts/PieCharts/WholePie";
 import HalfPie from "../../components/Charts/PieCharts/HalfPie";
 import WaffleChart from "../../components/Charts/WaffleCharts/WaffleChart";
+import BubbleChart from "../../components/Charts/BubbleCharts/BubbleChart";
 
 export default function Sale() {
   const formatNumber = (num) => (
@@ -97,6 +99,19 @@ export default function Sale() {
                     <WholePie color="category10" data={SALE_PROCEED_DATA} />
                     <HalfPie color="category10" data={SALE_PROCEED_DATA} />
                     <WaffleChart color="category10" data={SALE_PROCEED_DATA} />
+                  </div>
+                </div>
+              </div>
+            </Zoom>
+            <Zoom>
+              <div className="col-12">
+                <div className="single-chart text-center">
+                  <h3 className="title title-lg pdb-l">Exchange Income</h3>
+                  <div className="chart">
+                    <BubbleChart
+                      data={EXCHANGE_INCOME_DATA}
+                      color="category10"
+                    />
                   </div>
                 </div>
               </div>

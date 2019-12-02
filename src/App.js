@@ -29,9 +29,9 @@ function App() {
           <About />
           <Advantage />
           <Sale />
-          <Timeline />
           <FAQs />
-          <Contact />
+          <Timeline />
+          {/* <Contact /> */}
         </main>
         <Footer />
       </div>
