@@ -22,8 +22,9 @@ export default function About() {
                   </h2>
                   <p className="lead-s2">
                     DINT Token has been created to take advantage of blockchain
-                    and smart contract technology. Our aim is a platform for the
-                    future of creative opportunities in businesses.
+                    and smart contract technology. Our aim is a platform for our
+                    future and for us all, creative opportunities in business
+                    management.
                   </p>
                   <p>
                     While existing solutions offer to solve just one problem at
