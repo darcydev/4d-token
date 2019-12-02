@@ -73,7 +73,7 @@ export default function FAQs() {
                     />
                     <FAQItem
                       question="What can I purchase with DINT?"
-                      answer="Whilst DINT is definately an investment asset, it is not merely that! We offer a platform that can be used for
+                      answer="Whilst DINT is definitely an investment asset, it is not merely that! We offer a platform that can be used for
                       possibilities inside the platform while starting to add more options of crypto.
                       Thus, we are truly here to deliver an ultimate way of doing business in our modern world."
                     />
@@ -148,7 +148,7 @@ export default function FAQs() {
                     <FAQItem
                       question="What is the legal entity?"
                       answer="The legal entity for DINT is 4DInvestments Ltd (4DInvestments.org), headquarters located in Finland, Ireland and Seychelles, and an office in Barcelona.
-                      Expanding to Estonia, UK, Portgual and UAE soon."
+                      Expanding to Estonia, UK, Portugal and UAE soon."
                     />
                     <FAQItem
                       question="Legal third-parties"

@@ -1,7 +1,7 @@
 export const CARDS_TEXT = [
   {
     image: "images/gfx/gfx-sm-e.png",
-    heading: "Competitve Advantage",
+    heading: "Competitive Advantage",
     text:
       "With enormous competitive advantage in blockchain and smart contract technology. For businesses this represents significant unexpected opportunities."
   },
@@ -9,7 +9,7 @@ export const CARDS_TEXT = [
     image: "images/gfx/gfx-sm-f.png",
     heading: "Blockchain Infrastructure",
     text:
-      "The integration of blockchain technology to provide unique model of ultra-modern finanacial services."
+      "The integration of blockchain technology to provide unique model of ultra-modern financial services."
   },
   {
     image: "images/gfx/gfx-sm-g.png",

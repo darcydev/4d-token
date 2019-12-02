@@ -4,7 +4,7 @@ export default function SubscribeForm() {
   return (
     <div className="wgs wgs-subscribe-form wgs-subscribe-form-s1">
       <h6 className="wgs-title wgs-title-s2 ttc tc-white">
-        Subscribe to our newsleter
+        Subscribe to our newsletter
       </h6>
       <div className="wgs-body">
         <form

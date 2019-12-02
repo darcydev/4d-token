@@ -14,7 +14,7 @@ export default function Advantage() {
         <Zoom>
           <SectionHeading
             topHeading="why DINT"
-            mainHeading="competitve advantage"
+            mainHeading="Competitive advantage"
             subHeading="DINToken delivers on our vision and mission. In combination with our own unique use case and 4DMarkets, we have solved a problem and created something very special!"
           />
         </Zoom>
