@@ -2,9 +2,11 @@ import React from "react";
 import Zoom from "react-reveal/Zoom";
 
 import { FAQ_HEADINGS } from "./Data/FAQData";
+import { EXCHANGE_INCOME_DATA } from "../Sale/Data/TokenDistributionData";
 
 import SectionHeading from "../../components/Headings/SectionHeading";
 import FAQItem from "./FAQItem";
+import BubbleChart from "../../components/Charts/BubbleCharts/BubbleChart";
 
 export default function FAQs() {
   const FAQ_HEADINGS_MARKUP = FAQ_HEADINGS.map((v, i) => (
@@ -97,16 +99,37 @@ export default function FAQs() {
                 <div className="tab-pane fade" id="faq-token">
                   <div className="row gutter-vr-50px">
                     <FAQItem
-                      question="Token question 1"
-                      answer="Token answer 1"
+                      question="DINT Details"
+                      answer="
+                      <li>Investment</li>
+                      <li>ERC-20 Token</li>
+                      <li>Ethereum Network</li>
+                      <li>Original Exchange: trade.4DMarkets.com</li>
+                      <li>Max Supply: 9,000,000 DINT</li>
+                      <li>Circulating Supply: 8,100,000 DINT</li>
+                      <li>Development Holdings: 900,000 DINT</li>
+                      <li>Working with Proof of Work (POW) Model</li>
+                      <li>DINT.info</li>
+                      "
                     />
                     <FAQItem
-                      question="Token question 2"
-                      answer="Token answer 2"
+                      question="DINT Background"
+                      answer="
+                      The token has been created to utilise the technology behind markets. For everyone's use, to take part of, business
+                      to smart business times. We do not see the markets as the main advantage, it was obviously needed to cover up our big vision
+                      of our vision. We are unstoppable, in the idea of doing certain thing's in a whole new and a better way. We do not have any real
+                      reason why you should buy our token, if you know the risk, do your research and believe in us, you can buy our token. We can't predict 
+                      the future of the markets, we do business once again to feel greater again, without complete trust relayed model, also, you do 
+                      not need to own any CryptoCurrency with us. DINT is the first one to be used in the creative coming moments we created by solving
+                      the problem we aimed for.<br />
+                      We use, of course, the trading fees to support the project in development and legal purposes. <br />
+                      "
                     />
-                    <FAQItem
-                      question="Token question 3"
-                      answer="Token answer 3"
+                  </div>
+                  <div className="chart">
+                    <BubbleChart
+                      data={EXCHANGE_INCOME_DATA}
+                      color="category10"
                     />
                   </div>
                 </div>
@@ -119,12 +142,17 @@ export default function FAQs() {
                       <li>Business Networking</li>
                       <li>Business Development</li>
                       <li>Business Transformation into Digital</li>
-                      <li>Business Professionals</li>"
+                      <li>Business Professionals</li>
+                      <br />
+                      We aim to put people and businesses together, and make this an option for freelance businesses."
                     />
                     <FAQItem
                       question="Business professionals"
                       answer="We aim to deliver a simple way for everyone’s benefit,
-                    to just use it once it’s ready that’s what products are about."
+                    to just use it once it’s ready that’s what products are about. 
+                    <br /><br />
+                    We aim to bring together a simple way of helping your business start and grow. As big changes in business requires big action. 
+                    We will also expand when required."
                     />
                   </div>
                 </div>

@@ -55,7 +55,7 @@ export default function Sale() {
                   />
                   <ExtraSmallHeading
                     mainHeading="We Accept"
-                    subHeading="FIAT, ETH, BTC, LTC"
+                    subHeading="ETH, BTC, LTC, XRP"
                   />
                   <ExtraSmallHeading
                     mainHeading="Max transaction amount"
@@ -97,19 +97,6 @@ export default function Sale() {
                     <WholePie color="category10" data={SALE_PROCEED_DATA} />
                     <HalfPie color="category10" data={SALE_PROCEED_DATA} />
                     <WaffleChart color="category10" data={SALE_PROCEED_DATA} />
-                  </div>
-                </div>
-              </div>
-            </Zoom>
-            <Zoom>
-              <div className="col-12">
-                <div className="single-chart text-center">
-                  <h3 className="title title-lg pdb-l">Exchange Income</h3>
-                  <div className="chart">
-                    <BubbleChart
-                      data={EXCHANGE_INCOME_DATA}
-                      color="category10"
-                    />
                   </div>
                 </div>
               </div>
