@@ -173,6 +173,11 @@ export default function FAQs() {
                       answer="We are currently in the process of getting Fiat permission for 4DMarkets, and traditional fund management permissions for assets, including crypto currencies.
                       In addition, DINToken and Platform will be regulated when required."
                     />
+                    <FAQItem
+                      question="Regulations"
+                      answer="We strictly follow the upcoming crypto regulations, since at the moment there's not a thing known Crypto regulations. This do not let us to build our
+                      own amazing product as a example of a new way of managing things, for trust matters, and endless opportunities came along with Blockchain technology."
+                    />
                   </div>
                 </div>
               </div>
