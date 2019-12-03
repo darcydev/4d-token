@@ -104,6 +104,10 @@ export default function FAQs() {
                       question="Token question 2"
                       answer="Token answer 2"
                     />
+                    <FAQItem
+                      question="Token question 3"
+                      answer="Token answer 3"
+                    />
                   </div>
                 </div>
                 <div className="tab-pane fade" id="faq-client">
