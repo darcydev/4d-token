@@ -19,22 +19,6 @@ export default function FAQs() {
     </li>
   ));
 
-  /*   const getAnswersMarkup = (obj) =>
-    Object.keys(obj).map((k) => (
-      <div className="col-md-6">
-        <div className="nk-block-text">
-          <h5 className="title title-sm">{k}</h5>
-          <p>{obj[k]}</p>
-        </div>
-      </div>
-    ));
-
-  const FAQ_GENERAL_ANSWERS_MARKUP = getAnswersMarkup(FAQ_GENERAL_ANSWERS);
-  const FAQ_ICO_ANSWERS_MARKUP = getAnswersMarkup(FAQ_ICO_ANSWERS);
-  const FAQ_TOKEN_ANSWERS_MARKUP = getAnswersMarkup(FAQ_TOKEN_ANSWERS);
-  const FAQ_CLIENT_ANSWERS_MARKUP = getAnswersMarkup(FAQ_CLIENT_ANSWERS);
-  const FAQ_LEGAL_ANSWERS_MARKUP = getAnswersMarkup(FAQ_LEGAL_ANSWERS); */
-
   return (
     <section
       className="section bg-theme-alt tc-light pb-0 ov-v"
@@ -42,10 +26,7 @@ export default function FAQs() {
     >
       <div className="container">
         <Zoom>
-          <SectionHeading
-            topHeading="Faqs"
-            mainHeading="Frequently Asked Questions"
-          />
+          <SectionHeading mainHeading="Questions & Answers" />
         </Zoom>
         <div className="nk-block">
           <div className="row justify-content-center">
