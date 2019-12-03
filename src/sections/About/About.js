@@ -1,6 +1,9 @@
 import React from "react";
 import Zoom from "react-reveal/Zoom";
 
+import H2 from "../../components/Headings/H2";
+import H6 from "../../components/Headings/H6";
+
 export default function About() {
   return (
     <section
@@ -13,29 +16,31 @@ export default function About() {
             <Zoom>
               <div className="col-lg-6 col-sm-9 pdb-m">
                 <div className="nk-block-text text-center text-lg-left">
-                  <h6 className="title title-xs title-xs-s3 tc-primary">
-                    DINTOKEN
-                  </h6>
-                  <h2 className="title title-semibold">
-                    DINToken is unique in that without an acton vision which
-                    change things that's needed.
-                  </h2>
+                  <H6
+                    classes="title title-xs title-xs-s3 tc-primary"
+                    text="DINTOKEN"
+                  />
+                  <H2
+                    classes="title title-semibold"
+                    text="DINToken is unique in that without an acton vision which
+                    change things that's needed."
+                  />
                   <p className="lead-s2">
                     DINT Token has been created to take advantage of blockchain
                     and smart contract technology. Our aim is a platform for our
-                    future and for us all, creative opportunities in business
+                    future and us all, creative opportunities in business
                     management.
                   </p>
                   <p>
                     While existing solutions offer to solve just one problem at
-                    a time, our team is up to build a secure, useful, &
-                    easy-to-use product based on Ethereum blockchain. It will
-                    include cryptocurrency investors and even a digital
+                    a time, our team is up to build a secure, useful, & an
+                    easy-to-use product based on the Ethereum blockchain. It
+                    will include cryptocurrency investors and even a digital
                     arbitration system.
                   </p>
                   <p>
                     We aim to integrate a modern Proof-of-Work model into
-                    business. Thereby giving businesses less reliance on a
+                    businesses. Thereby giving businesses less reliance on a
                     traditional trust-based model. Accordingly, DINToken is
                     designed to make business more efficient, transparent and
                     reliable.

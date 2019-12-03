@@ -41,9 +41,7 @@ export default function Sale() {
             <SectionHeading
               topHeading="token"
               mainHeading="Pre-Sale Values"
-              subHeading="All sales are public sales. Reason for higher pricing is simply,
-              because our use case development has already started and it's to
-              be finished."
+              subHeading="All sales are public sales. DINToken is a premium token due to our use-case development."
             />
           </Zoom>
           <div className="row align-items-center justify-content-between gutter-vr-30px">
