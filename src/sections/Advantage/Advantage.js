@@ -15,8 +15,15 @@ export default function Advantage() {
           <SectionHeading
             topHeading="why DINT"
             mainHeading="Competitive advantage"
-            subHeading="DINToken delivers on our vision and mission. In combination with our own unique use case and 4DMarkets, we have solved a problem and created something very special!"
           />
+          <p>
+            DINToken delivers on our vision and mission. In combination with our
+            own unique use case and 4DMarkets, we have solved a problem and
+            created something very special! <br />
+            Especially because we do not aim to tokenize all businesses. Instead
+            the exact opposite, as our partner, VPLedger.com will do that.
+            DINToken supports on the other side, together.
+          </p>
         </Zoom>
         <div className="nk-block">
           <div className="row justify-content-center gutter-vr-30px">

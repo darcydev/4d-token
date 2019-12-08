@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import parse from "html-react-parser";
 
 export default function SectionHeading({
   topHeading,

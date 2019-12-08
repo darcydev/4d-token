@@ -75,11 +75,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { color: #1b30a4; font-weig
 h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, h6:last-child, .h1:last-child, .h2:last-child, .h3:last-child, .h4:last-child, .h5:last-child, .h6:last-child { margin-bottom: 0; }
 .tc-light h1, .tc-light h2, .tc-light h3, .tc-light h4, .tc-light h5, .tc-light h6, .tc-light .h1, .tc-light .h2, .tc-light .h3, .tc-light .h4, .tc-light .h5, .tc-light .h6 { color: #fff; }
 
-p { font-size: 14px; margin-bottom: 1rem; color: #637097; }
+p { font-size: 16px; margin-bottom: 1rem; color: #b4d6fd; }
 p:last-child { margin-bottom: 0; }
 p + [class*=btn] { margin-top: 15px; }
 
-@media (min-width: 576px) { p { font-size: 15px; } }
+@media (min-width: 576px) { p { font-size: 17px; } }
 ul, ol, table { margin: 0; padding: 0; }
 
 strong, b { font-weight: 500; }
