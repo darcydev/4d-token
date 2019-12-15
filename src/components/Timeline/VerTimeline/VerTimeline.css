@@ -1,0 +1,31 @@
+.vertical-timeline {
+  width: 65%;
+}
+
+@media only screen and (max-width: 425px) {
+  .vertical-timeline {
+    width: 90%;
+  }
+}
+
+.vertical-timeline::before {
+  background: transparent !important;
+}
+
+.vertical-timeline .vertical-timeline-element-content {
+  box-shadow: 3px 6px #0d42b2 !important;
+}
+
+.vertical-timeline .vertical-timeline-element-content .vertical-timeline-element-date {
+  color: #7ab9ff !important;
+  text-align: left;
+}
+
+.vertical-timeline .vertical-timeline-element-content .vertical-timeline-element-title {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.vertical-timeline .vertical-timeline-element-icon {
+  background: none !important;
+  box-shadow: none !important;
+}

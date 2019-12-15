@@ -1,22 +1,32 @@
 export const TIMELINE_DATA = [
   {
-    date: "October 2019",
-    description: "4D Markets Launched"
+    date: "January 2015",
+    description: "4D Investments",
+    subtitle: "The planning started"
   },
-  {
-    date: "October 2019",
-    description: "4D Exchange Launched"
-  },
+  { date: "March 2018", description: "4D Investments", subtitle: "Launched" },
+
+  { date: "October 2018", description: "4D Markets", subtitle: "Launched" },
   {
     date: "November 2019",
-    description: "4D Investments Launched"
+    description: "4D Investments Finland",
+    subtitle: "Finland Office Opened"
   },
   {
     date: "December 2019",
-    description: "DINToken"
+    description: "DINT - Investment Token",
+    subtitle: "DINT ICO Opened"
   },
   {
     date: "Coming soon...",
-    description: "Platform Launch"
-  }
+    description: "Blockchain Product",
+    subtitle: "Soon to be released: our blockchain product and whitepaper"
+  },
+  { date: "Coming soon...", description: "4DIndex.com" },
+  {
+    date: "Coming soon...",
+    description: "Partnerships",
+    subtitle: "Soon to be announced: our partnerships"
+  },
+  { date: "Coming soon...", description: "Networking and Expansion Plans" }
 ];

@@ -31,7 +31,7 @@ export default function Timeline() {
                 <div className="roadmap-carousel-container-s2 text-center">
                   <div
                     className="has-carousel roadmap-carousel roadmap-carousel-s2 roadmap-carousel-nav-s2 owl-carousel"
-                    data-items={5}
+                    data-items={4}
                     data-items-mobile-s={1}
                     data-navs="true"
                   >

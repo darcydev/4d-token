@@ -13,6 +13,9 @@ import Sale from "./sections/Sale/Sale";
 import About from "./sections/About/About";
 import Advantage from "./sections/Advantage/Advantage";
 
+import HorTimeline from "./components/Timeline/HorTimeline/HorTimeline";
+import VerTimeline from "./components/Timeline/VerTimeline/VerTimeline";
+
 function App() {
   return (
     <div className="App">
@@ -30,7 +33,12 @@ function App() {
           <Advantage />
           <Sale />
           <FAQs />
-          <Timeline />
+          <VerTimeline
+            sectionTopHeading="What We've Achieved"
+            sectionMainHeading="Achieved Milestones"
+          />
+          {/* <HorTimeline /> */}
+          {/* <Timeline /> */}
           {/* <Contact /> */}
         </main>
         <Footer />
