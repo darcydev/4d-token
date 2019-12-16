@@ -305,22 +305,17 @@ function App() {
                           data-animate="fadeInUp"
                           data-delay=".2"
                         >
-                          At ICO Crypto Wallet we apply extreme security
-                          measures to Lorem Ipsum is simply dummy text of the
-                          printing and typesetting industry. Lorem Ipsum has
-                          been the industry's standard dummy text ever since the
-                          1500s, when an unknown printer took a galley of type
-                          and scrambled it to make a type specimen book.{" "}
-                        </p>
-                        <p
-                          className="animated"
-                          data-animate="fadeInUp"
-                          data-delay=".3"
-                        >
-                          It has survived not only five centuries, but also the
-                          leap into electronic typesetting, remaining
-                          essentially unchanged. It was popularised in the 1960s
-                          with the release of Letraset.
+                          Enim id excepteur nulla est nisi voluptate nisi
+                          aliquip esse irure duis. Sint enim tempor pariatur
+                          consequat non laboris sint elit do. Ex occaecat et
+                          sunt esse consectetur magna excepteur deserunt labore
+                          minim et laborum dolor. Quis fugiat irure cillum
+                          proident nulla duis aliqua. In exercitation esse
+                          aliquip irure ipsum incididunt aliquip labore
+                          consectetur non ullamco aute. Quis consequat irure qui
+                          ullamco et sint excepteur reprehenderit. Laboris
+                          proident deserunt pariatur incididunt laboris est
+                          occaecat exercitation incididunt nisi.
                         </p>
                       </div>
                     </div>
@@ -365,19 +360,12 @@ function App() {
                           data-animate="fadeInUp"
                           data-delay=".3"
                         >
-                          Create Bitcoin and Ethereum and other wallets for all
-                          your tokens. Safely back them all up, in one click.
-                        </p>
-                        <p
-                          className="animated"
-                          data-animate="fadeInUp"
-                          data-delay=".4"
-                        >
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua. Ut enim ad minim veniam, quis
-                          nostrud exercitation ullamco laboris nisi ut aliquip
-                          ex ea commodo consequat.
+                          Commodo labore eu incididunt adipisicing do commodo
+                          duis excepteur laborum. Occaecat aliquip sint proident
+                          amet sit consequat voluptate. Pariatur Lorem fugiat
+                          proident occaecat aliquip eu do incididunt ullamco.
+                          Dolor voluptate occaecat deserunt ea. Est proident
+                          duis enim aute proident occaecat minim elit.
                         </p>
                       </div>
                     </div>
