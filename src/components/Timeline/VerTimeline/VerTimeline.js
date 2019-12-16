@@ -29,12 +29,12 @@ export default function VerTimeline({ sectionMainHeading, sectionTopHeading }) {
   ));
 
   return (
-    <section className="section bg-theme tc-light ov-h">
+    <>
       <SectionHeading
         topHeading={sectionTopHeading}
         mainHeading={sectionMainHeading}
       />
       <VerticalTimeline>{TIMELINE_ITEMS_MARKUP}</VerticalTimeline>
-    </section>
+    </>
   );
 }

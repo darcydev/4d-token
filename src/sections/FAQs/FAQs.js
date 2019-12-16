@@ -1,18 +1,18 @@
-import React from "react";
-import Zoom from "react-reveal/Zoom";
+import React from 'react';
+import Zoom from 'react-reveal/Zoom';
 
-import { FAQ_HEADINGS } from "./Data/FAQData";
-import { EXCHANGE_INCOME_DATA } from "../Sale/Data/TokenDistributionData";
+import { FAQ_HEADINGS } from './Data/FAQData';
+import { EXCHANGE_INCOME_DATA } from '../Sale/Data/TokenDistributionData';
 
-import SectionHeading from "../../components/Headings/SectionHeading";
-import FAQItem from "./FAQItem";
-import BubbleChart from "../../components/Charts/BubbleCharts/BubbleChart";
+import SectionHeading from '../../components/Headings/SectionHeading';
+import FAQItem from './FAQItem';
+import BubbleChart from '../../components/Charts/BubbleCharts/BubbleChart';
 
 export default function FAQs() {
   const FAQ_HEADINGS_MARKUP = FAQ_HEADINGS.map((v, i) => (
     <li>
       <a
-        className={i === 0 ? "active" : ""}
+        className={i === 0 ? 'active' : ''}
         data-toggle="tab"
         href={`#faq-${v}`}
       >
@@ -22,10 +22,7 @@ export default function FAQs() {
   ));
 
   return (
-    <section
-      className="section bg-theme-alt tc-light pb-0 ov-v"
-      id="faq-section"
-    >
+    <>
       <div className="container">
         <Zoom>
           <SectionHeading mainHeading="Questions & Answers" />
@@ -186,6 +183,6 @@ export default function FAQs() {
         </div>
       </div>
       <div className="ui-mask-left ui-mask-s5" />
-    </section>
+    </>
   );
 }
