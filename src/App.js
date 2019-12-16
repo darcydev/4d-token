@@ -2,16 +2,16 @@ import React from 'react';
 
 import './App.css';
 
+import Header from './sections/Header/Header';
 import Hero from './sections/Hero/Hero';
-import NavBar from './components/NavBar/NavBar';
 import Footer from './sections/Footer/Footer';
 import Contact from './sections/Contact/Contact';
 import FAQs from './sections/FAQs/FAQs';
-import Timeline from './components/Timeline/Timeline';
-import PreLoader from './components/Loaders/PreLoader';
 import Sale from './sections/Sale/Sale';
 import About from './sections/About/About';
 import Advantage from './sections/Advantage/Advantage';
+
+import PreLoader from './components/Loaders/PreLoader';
 import VerTimeline from './components/Timeline/VerTimeline/VerTimeline';
 
 function App() {
@@ -19,22 +19,36 @@ function App() {
     <div className="App">
       <PreLoader />
       <div className="nk-wrap">
-        <header
-          className="nk-header page-header is-transparent is-sticky is-shrink is-dark"
-          id="header"
-        >
-          <NavBar />
-        </header>
+        <Header />
         <main className="nk-pages bg-transparent">
           <Hero />
-          <About />
-          <Advantage />
-          <Sale />
+          <section
+            id="about-section"
+            className="section section-intro bg-theme-alt tc-light pb-0 ov-h"
+          >
+            <About />
+            <div className="ui-mask-left ui-mask-s1" />
+          </section>
+          <section
+            id="advantage-section"
+            className="section bg-theme-alt tc-light pb-0 ov-v"
+          >
+            <Advantage />
+            <div className="ui-mask-right ui-mask-s2" />
+          </section>
+          <section
+            id="ico-section"
+            className="section section-tokensale bg-grad-vr-alt-to-theme tc-light pb-0 ov-v"
+          >
+            <Sale />
+            <div className="ui-mask-left ui-mask-s3" />
+          </section>
           <section
             id="faq-section"
             className="section bg-theme-alt tc-light pb-0 ov-v"
           >
             <FAQs />
+            <div className="ui-mask-left ui-mask-s4" />
           </section>
           <section
             id="timeline-section"
