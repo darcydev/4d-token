@@ -1,5 +1,5 @@
-import React from "react";
-import LinkButton from "../../components/Buttons/LinkButton";
+import React from 'react';
+import LinkButton from '../../components/Buttons/LinkButton';
 
 export default function VideoHero() {
   return (
@@ -16,23 +16,9 @@ export default function VideoHero() {
                     </h4>
                     <div
                       className="countdown-s2 countdown"
-                      data-date="2020/01/15"
+                      data-date="2020/02/01"
                     />
                     <div className="token-info token-info-s1">
-                      {/* <div className="token-info-item token-info-item-s1">
-                        <div className="token-info-item-list">
-                          <span>Public Round 1:</span>
-                          <h4>1,600,000 $0.34</h4>
-                        </div>
-                        <div className="token-info-item-list">
-                          <span>Public Round 2:</span>
-                          <h4>2,500,000 $0.29</h4>
-                        </div>
-                        <div className="token-info-item-list">
-                          <span>Final Round:</span>
-                          <h4>4,000,000 -</h4>
-                        </div>
-                      </div> */}
                       <div className="token-info-item token-info-item-s1">
                         <span>
                           Total Supply

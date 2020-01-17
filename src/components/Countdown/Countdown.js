@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Countdown({ date }) {
+export default function Countdown({ date='12/05/2020' }) {
   return (
     <div className="token-status token-status-s5 bg-grad no-bd round tc-light">
       <div className="token-box token-box-s3">
